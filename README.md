@@ -20,11 +20,15 @@ You may also see any lint errors in the console.!
 
 ## Requirements
 
+<div align='left'>
+
 1. <a href="https://nodejs.org/en/download/">Node Js</a>
 2. Node_modules `npm install` or `yarn install` or `pnpm install`
 3. Backend API Music-App [`here`](https://github.com/IrfanAlfiansyah/music-app)
 
 ## Getting Started
+
+<div align='left'>
 
 1. Download these repos [`Backend`](https://github.com/IrfanAlfiansyah/music-app) and [`Frontend`](https://github.com/IrfanAlfiansyah/react-music-app.git) or you can type `git clone`[`backend-url`](https://github.com/IrfanAlfiansyah/music-app) and [`frontend-url`](https://github.com/IrfanAlfiansyah/react-music-app.git)
 2. Open app's directory in CMD or Terminal
