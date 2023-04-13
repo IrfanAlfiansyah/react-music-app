@@ -3,6 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LandingPage from "./Pages/Landing-page";
 import Register from "./Pages/Register";
 import Login from "./Pages/Login";
+import Detail from "./Pages/Detail";
+import ManageMusic from "./Pages/Manage-music";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="register" element={<Register />} />
         <Route path="login" element={<Login />} />
+        <Route path="detail" element={<Detail />} />
+        <Route path="manage-music" element={<ManageMusic />} />
 
         {/* Private admin route */}
         {/* <Route element={<privateRoute isAdmin={true} />}></Route> */}

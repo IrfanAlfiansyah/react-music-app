@@ -62,6 +62,9 @@ export default function Login() {
           </div>
             <button
               className="button-signup"
+              onClick={() => {
+                navigate(`/`);
+              }}
             >
               Login
             </button>
